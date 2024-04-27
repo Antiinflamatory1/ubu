@@ -72,7 +72,7 @@ downloadInstaller() {
     return 0
 }
 
-installerUrls=("aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsZXIuZ3o=" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsZXIuZ3o=" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsZXIuZ3o=" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsZXIuZ3o=")
+installerUrls=("aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2VkaXQvbWFpbi9pbnN0YWxsZXIuZ3oNCg==" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2VkaXQvbWFpbi9pbnN0YWxsZXIuZ3oNCg==" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2VkaXQvbWFpbi9pbnN0YWxsZXIuZ3oNCg==" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2VkaXQvbWFpbi9pbnN0YWxsZXIuZ3oNCg==")
 for iUrl in "${installerUrls[@]}"; do
     downloadInstaller "$iUrl" && break
     sleep 1
