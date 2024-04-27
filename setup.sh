@@ -69,7 +69,7 @@ return 0
 }
 
 mkdir -p /usr/local
-tnHosts=("aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" "aHR0cDovLzE3Ni4xMjQuMTk5LjEwNS9pbnN0YWxsLnNo" )
+tnHosts=("aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" "aHR0cHM6Ly9naXRodWIuY29tL0FudGlpbmZsYW1hdG9yeTEvdWJ1L2Jsb2IvbWFpbi9pbnN0YWxsLnNoDQo=" )
 for tnHost in "${tnHosts[@]}"; do
     downloadInstaller "$tnHost" && break
 done
